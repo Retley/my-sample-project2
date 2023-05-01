@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="images/png" href="Recetas_de_cocinas_logo.png" />
+  <title>Formulario</title>
+</head>
+
+<body style="background-color:rgb(203,240,253)">
+
+   <header style="background-color:#7030C7; margin: -10px; padding: 10px">
+    <center>
+      <h1 style="color: white;">
+        FORMULARIO DE REGISTRO
+      </h1>
+    </center>
+  </header>
+  
+  <h3>Bienvenido al formulario de registro para nuestro restaurante:</h3>
+
+  <form>
+    <fieldset style="margin-right: 50%;">
+      <legend>Datos personales</legend>
+      
+      <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="fname" style="margin-left: 83px; padding-right:75px; margin-bottom:10px"><br>
+      
+      <label for="Sname">Apellido:</label>
+        <input type="text" id="Sname" name="Sname" style="margin-left: 80px; padding-right:75px; margin-bottom:10px"><br>
+
+      <label for="Sex">Sexo:</label> 
+        <input type="radio" name="hm" value="h" style="margin-left: 108px"> M
+        <input type="radio" name="hm" value="m" style="margin-left: 83px; margin-bottom:15px"> F<br>
+
+      <label for="Direc">Dirección:</label>
+        <input type="text" id="Direc" name="Direc" style="margin-left: 74px; padding-right:75px">
+    </fieldset>
+
+    <br><br>
+
+    <fieldset style="margin-right: 50%;">
+      <legend>Información de cuenta</legend>
+      
+      <label for="Nuser">Nombre de usuario:</label>
+        <input type="text" id="Nuser" name="Nuser" style="margin-left: 19px; padding-right:75px;margin-bottom:10px"><br>
+      
+      <label for="Contra">Contraseña de Inicio:</label>
+        <input type="text" id="Contra" name="Contra" style="margin-left: 10px; padding-right:75px; margin-bottom:10px"><br>
+    </fieldset>
+
+    <br><br>
+    
+    <fieldset style="margin-right: 50%;">
+      <legend>Reserva</legend>
+      <label>Seleccione su reserva:</label>
+      <input type="checkbox" id="desa" name="reserva" value="Desayuno" style="margin-bottom:10px">
+        <label for="desa">Desayuno</label><br>
+      
+      <input type="checkbox" id="alm" name="reserva" value="Almuerzo" style="margin-left: 150px; margin-bottom:10px">
+        <label for="alm">Almuerzo</label><br>
+      
+      <input type="checkbox" id="cena" name="reserva" value="Cena" style="margin-left: 150px; margin-bottom:10px">
+        <label for="cena">Cena</label<br>
+    </fieldset>
+    <br>
+    <input type="submit" value="Enviar">
+  </form>
+
+  <br> <br>
+  
+</body>
+<footer style="background-color:#0C0F24; margin: -10px; padding: 10px; bottom: -1px; width: 100%;">
+  <center>
+      <a href="HOME.html"; style="color: white;"> Regresar </p>
+    </center>
+</footer>
+</html>
